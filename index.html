@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>blog website</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/cc6a1647e3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top ml-4">
+      <a class="navbar-brand" href="#"><h2 class="logo">VK</h2></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse mr-3" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-link active mr-4" id="nav-item1" href="#introSection"
+            >Home <span class="sr-only">(current)</span></a
+          >
+          <a class="nav-link mr-4" id="nav-item2" href="#aboutMyselfSection"
+            >About</a
+          >
+          <a class="nav-link mr-4" id="nav-item3" href="#serviceSection"
+            >Services</a
+          >
+          <a class="nav-link mr-4" id="nav-item4" href="#skillsSection"
+            >Skills</a
+          >
+          <a class="nav-link mr-4" id="nav-item5" href="#contactSection"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- ===================== Intro Section ====================================-->
+    <div id="introSection" class="mt-5">
+      <div class="intro-container">
+        <div class="text-container">
+          <h1 class="name">
+            I'm <br />
+            Varun Kumar
+          </h1>
+          <p class="role">
+            <span class="span_ele">Frontend</span> Developer and <br />
+            Content <span class="span_ele2">Developer</span>
+          </p>
+          <a href="#introSection"><button class="hire_me">Hire Me</button></a>
+        </div>
+        <div>
+          <img
+            src="images/manimg.png"
+            class="manimg d-none d-lg-inline"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <!-- ===================== About Myself Section =================================-->
+    <div class="aboutmyself-container" id="aboutMyselfSection">
+      <div class="description container mt-5 ml-4">
+        <h1 class="aboutmyself-title">About Myself</h1>
+        <p class="aboutmyself-description">
+          As a frontend developer, I am specialize in creating the user
+          interface and experience of websites and web applications. My
+          expertise lies in crafting visually appealing, intuitive, and
+          responsive designs that engage users and enhance their interaction
+          with digital platforms. I am proficient in a variety of programming
+          languages such as HTML, CSS, and JavaScript, as well as frameworks and
+          libraries like React.js.
+        </p>
+        <a href="#introSection"><button class="more-info">More Info</button></a>
+        <a href="introSection"><button class="hire_me">Resume</button></a>
+      </div>
+      <div>
+        <img
+          src="images/manimg.png"
+          class="myselfimg d-none d-lg-inline"
+          alt=""
+        />
+      </div>
+    </div>
+    <!--  ========================  Service Section  ================================ -->
+    <div class="service-container" id="serviceSection">
+      <h1 class="aboutmyself-title service-container-title">
+        What Services you will Get from me!
+      </h1>
+      <div class="icons-container">
+        <div class="service-card service-card-color">
+          <i class="fa-solid fa-display service-icon"></i>
+          <h3 class="service-name">Web Design</h3>
+          <hr class="horizontal-line" />
+        </div>
+        <div class="service-card service-card-color2">
+          <i class="fa-solid fa-mobile-screen service-icon"></i>
+          <h3 class="service-name text-center">Application Development</h3>
+          <hr class="horizontal-line" />
+        </div>
+        <div class="service-card service-card-color3">
+          <i class="fa-solid fa-server service-icon"></i>
+          <h3 class="service-name text-center">Backend Development</h3>
+          <hr class="horizontal-line" />
+        </div>
+        <div class="service-card service-card-color4">
+          <i class="fa-solid fa-display service-icon"></i>
+          <h3 class="service-name text-center">UI/UX Design</h3>
+          <hr class="horizontal-line" />
+        </div>
+      </div>
+    </div>
+    <!-- ==============  Skills Section  ============== -->
+    <div class="column skills-section" id="skillsSection">
+      <h1 class="aboutmyself-title">Skills</h1>
+      <div class="row">
+        <div class="skill-container col-lg-6">
+          <div class="skill-details">
+            <h3 class="skill-name">HTML</h3>
+            <h3 class="skill-percentage">95%</h3>
+          </div>
+          <div class="skill-progess1">
+            <div class="skill-progess2"></div>
+          </div>
+        </div>
+        <div class="skill-container col-lg-6">
+          <div class="skill-details">
+            <h3 class="skill-name">CSS</h3>
+            <h3 class="skill-percentage">90%</h3>
+          </div>
+          <div class="skill-progess1">
+            <div class="skill-progess3"></div>
+          </div>
+        </div>
+        <div class="skill-container col-lg-6">
+          <div class="skill-details">
+            <h3 class="skill-name">JAVA SCRIPT</h3>
+            <h3 class="skill-percentage">85%</h3>
+          </div>
+          <div class="skill-progess1">
+            <div class="skill-progess4"></div>
+          </div>
+        </div>
+        <div class="skill-container col-lg-6">
+          <div class="skill-details">
+            <h3 class="skill-name">React JS</h3>
+            <h3 class="skill-percentage">80%</h3>
+          </div>
+          <div class="skill-progess1">
+            <div class="skill-progess5"></div>
+          </div>
+        </div>
+        <div class="skill-container col-lg-6">
+          <div class="skill-details">
+            <h3 class="skill-name">Python</h3>
+            <h3 class="skill-percentage">85%</h3>
+          </div>
+          <div class="skill-progess1">
+            <div class="skill-progess6"></div>
+          </div>
+        </div>
+        <div class="skill-container col-lg-6">
+          <div class="skill-details">
+            <h3 class="skill-name">SQL</h3>
+            <h3 class="skill-percentage">80%</h3>
+          </div>
+          <div class="skill-progess1">
+            <div class="skill-progess7"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =========================   Contact Section  =============================-->
+
+    <div class="contact-section" id="contactSection">
+      <h1 class="contact-section-title">Contact me for Free Lancing</h1>
+      <div class="contact-details mt-4">
+        <i class="fa-solid fa-envelope contact-icon"></i>
+        <h2 class="contact-item">vaunkumar02021@gmail.com</h2>
+      </div>
+      <div class="contact-details">
+        <i class="fa-solid fa-phone contact-icon"></i>
+        <h2 class="contact-item">vaunkumar02021@gmail.com</h2>
+      </div>
+      <h1 class="contact-section-title mt-5">Follow us</h1>
+      <div class="follow-us">
+        <i class="fa-brands fa-facebook contact-icon mr-5"></i>
+        <i class="fa-brands fa-twitter contact-icon mr-5"></i>
+        <i class="fa-brands fa-linkedin contact-icon"></i>
+      </div>
+    </div>
+  </body>
+</html>

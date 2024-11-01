@@ -1,0 +1,338 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-family: "Poppins";
+  border-color: #e45447;
+  border-style: solid;
+  border-width: 5px;
+  width: 45px;
+  padding: 3px;
+  font-size: 22px;
+  color: #90acd1;
+}
+
+#nav-item1 {
+  font-family: "Poppins";
+  font-weight: 500;
+  color: #e45447;
+}
+
+#nav-item2 {
+  font-family: "Poppins";
+  font-weight: 500;
+  color: black;
+}
+
+#nav-item3 {
+  font-family: "Poppins";
+  font-weight: 500;
+  color: black;
+}
+
+#nav-item4 {
+  font-family: "Poppins";
+  font-weight: 500;
+  color: black;
+}
+
+#nav-item5 {
+  font-family: "Poppins";
+  font-weight: 500;
+  color: black;
+}
+
+.intro-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-container {
+  margin-bottom: 15px;
+}
+
+.hire_me {
+  width: 135px;
+  height: 41px;
+  background-color: #e45447;
+  border-radius: 100px;
+  color: white;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  margin-top: 40px;
+  transition: 1s;
+}
+
+.hire_me:hover {
+  border-style: solid;
+  background-color: transparent;
+  color: #e45447;
+}
+
+.name {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 40px;
+  margin-top: 35px;
+}
+
+.role {
+  font-family: "Poppins";
+  color: #7f8182;
+  margin-top: 25px;
+  line-height: 40px;
+  font-size: 25px;
+}
+
+.span_ele {
+  color: #e45447;
+}
+
+.span_ele2 {
+  color: #90acd1;
+}
+
+.bg-color {
+  background-color: #90acd1;
+  height: 100%;
+  width: 20%;
+}
+
+.manimg {
+  width: 150%;
+  margin-top: 25px;
+}
+
+.aboutmyself-container {
+  background-color: #f9f9ff;
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutmyself-title {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.aboutmyself-description {
+  font-family: "Poppins";
+  color: #7f8182;
+}
+
+.myselfimg {
+  width: 650px;
+}
+
+.description-container {
+  order: 1;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
+.more-info {
+  width: 135px;
+  height: 41px;
+  background-color: transparent;
+  border-radius: 100px;
+  border: 2px solid #90acd1;
+  color: #90acd1;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 50px;
+  transition: 1s;
+}
+
+.more-info:hover {
+  background-color: #90acd1;
+  color: white;
+}
+
+/*============   Service Section  ============ */
+
+.service-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.service-container-title {
+  text-align: center;
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  width: 330px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 6px;
+  margin: 12px;
+}
+
+.service-card-color {
+  background-color: #e2a599;
+}
+
+.service-card-color2 {
+  background-color: #715f69;
+}
+
+.service-card-color3 {
+  background-color: #e45447;
+}
+
+.service-card-color4 {
+  background-color: #90acd1;
+}
+
+.service-icon {
+  font-size: 30px;
+  color: white;
+}
+
+.service-name {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 23px;
+  color: white;
+  margin-top: 25px;
+}
+
+.horizontal-line {
+  background-color: white;
+  width: 50px;
+  height: 3px;
+  margin-top: 2px;
+}
+
+/* =================== Skill Section =================== */
+
+.skills-section {
+  background-color: #f9f9ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+}
+
+.skill-container {
+  width: 90%;
+  max-width: 550px;
+  margin-top: 22px;
+}
+
+.skill-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-name {
+  font-family: "Poppins";
+}
+
+.skill-description {
+  font-family: "Poppins";
+}
+
+.skill-progess1 {
+  height: 15px;
+  background-color: #e7eef0;
+  border-radius: 50px;
+}
+
+.skill-progess2 {
+  height: 15px;
+  width: 95%;
+  background-color: #e45447;
+  border-radius: 50px;
+}
+
+.skill-progess3 {
+  height: 15px;
+  width: 90%;
+  background-color: #e45447;
+  border-radius: 50px;
+}
+
+.skill-progess4 {
+  height: 15px;
+  width: 85%;
+  background-color: #e45447;
+  border-radius: 50px;
+}
+
+.skill-progess5 {
+  height: 15px;
+  width: 80%;
+  background-color: #e45447;
+  border-radius: 50px;
+}
+
+.skill-progess6 {
+  height: 15px;
+  width: 85%;
+  background-color: #e45447;
+  border-radius: 50px;
+}
+
+.skill-progess7 {
+  height: 15px;
+  width: 80%;
+  background-color: #e45447;
+  border-radius: 50px;
+}
+
+/* ==================================  Contact Section =====================================*/
+
+.contact-section {
+  background-color: #e45447;
+  padding: 30px;
+  text-align: center;
+}
+
+.contact-section-title {
+  font-family: "Poppins";
+  font-size: 30px;
+  color: white;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.contact-icon {
+  color: white;
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.contact-item {
+  font-family: "Poppins";
+  font-size: 22px;
+  color: white;
+}
+
+.follow-us {
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+}
